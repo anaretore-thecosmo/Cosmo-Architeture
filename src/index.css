@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-calcareo: #F3F0E9;
+  --color-areia: #E3DCCF;
+  --color-verde-petroleo: #173D3A;
+  --color-grafite: #272C2B;
+  --color-cinza-oliva: #68706A;
+  --color-terracota: #B66F52;
+  --color-latao: #B59A63;
+  --color-marfim: #FBF9F4;
+}
+
+:root {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #272C2B;
+  background-color: #F3F0E9;
+}
+
+/* Safe area utilities for modern mobile devices */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}

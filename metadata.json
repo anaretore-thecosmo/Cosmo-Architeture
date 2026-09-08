@@ -1,0 +1,6 @@
+{
+  "name": "COSMO ARCHITECTURE",
+  "description": "Arquitetura consciente com inteligência THE COSMO",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
